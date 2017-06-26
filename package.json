@@ -1,0 +1,25 @@
+{
+  "name": "temperature_test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Alex Chernov",
+  "license": "ISC",
+  "buildFiles": [
+    "manifest.json",
+    "icon.svg",
+    "index.html",
+    "css/**/*",
+    "fonts/**/",
+    "js/**/",
+    "vendor/**/"
+  ],
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-zip": "^3.2.0",
+    "rimraf": "^2.6.1"
+  }
+}
