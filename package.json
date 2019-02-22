@@ -15,11 +15,13 @@
     "css/**/*",
     "fonts/**/",
     "js/**/",
-    "vendor/**/"
+    "vendor/**/",
+    "node_modules/webview-tile-header/WebViewTileHeader.js"
   ],
   "devDependencies": {
     "gulp": "^3.9.1",
     "gulp-zip": "^3.2.0",
-    "rimraf": "^2.6.1"
+    "rimraf": "^2.6.1",
+    "webview-tile-header": "git+https://github.com/moduware/webview-tile-header.git"
   }
 }

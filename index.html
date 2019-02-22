@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>Humidity and Temperature</title>
+    <title>Barometer</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
     <meta name="mobile-web-app-capable" content="yes">
@@ -15,17 +15,8 @@
     <link rel="stylesheet" href="vendor/mdl/material.min.css">
 
     <!-- nexpaq libs -->
-    <script type="text/javascript" src="js/NexpaqHeader.js"></script>
-
-    <!-- partials -->
-
-    <!-- screens -->
-
-    <!-- tools-->
-
-    <!-- core -->
+    <script type="text/javascript" src="node_modules/webview-tile-header/WebViewTileHeader.js"></script>
     <script type="text/javascript" src="vendor/mdl/material.min.js"></script>
-    <script type="text/javascript" src="js/native.js"></script>
     <script type="text/javascript" src="js/scripts.js"></script>
   </head>
   <body>
@@ -40,22 +31,22 @@
       </thead>
       <tbody>
         <tr>
-          <td class="mdl-data-table__cell--non-numeric"><i class="material-icons">ac_unit</i></td>
-          <td class="mdl-data-table__cell--non-numeric">Ambient temperature</td>
-          <td id="ambientTemperatureValue">n/a</td>
-          <td>&#8451;</td>
-        </tr>
-        <tr>
-          <td class="mdl-data-table__cell--non-numeric"><i class="material-icons">ac_unit</i></td>
-          <td class="mdl-data-table__cell--non-numeric">Object temperature</td>
-          <td id="objectTemperatureValue">n/a</td>
-          <td>&#8451;</td>
-        </tr>
-        <tr>
           <td class="mdl-data-table__cell--non-numeric"><i class="material-icons">pool</i></td>
           <td class="mdl-data-table__cell--non-numeric">Humidity</td>
           <td id="humidityValue">n/a</td>
           <td>%</td>
+        </tr>
+        <tr>
+          <td class="mdl-data-table__cell--non-numeric"><i class="material-icons">ac_unit</i></td>
+          <td class="mdl-data-table__cell--non-numeric">Temperature</td>
+          <td id="temperatureValue">n/a</td>
+          <td>&#8451;</td>
+        </tr>
+        <tr>
+          <td class="mdl-data-table__cell--non-numeric"><i class="material-icons">network_check</i></td>
+          <td class="mdl-data-table__cell--non-numeric">Pressure</td>
+          <td id="pressureValue">n/a</td>
+          <td>&#8451;</td>
         </tr>
       </tbody>
     </table>

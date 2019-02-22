@@ -1,15 +1,15 @@
 {
-  "id": "nexpaq.tile.hat-testing",
-  "name": "Temperature & Humidity",
-  "description": "Nexpaq H&T module interface for testing",
+  "id": "moduware.tile.barometer-testing",
+  "name": "Barometer",
+  "description": "Moduware Barometer module interface for testing",
 
-  "version": "0.0.2",
-  "app_version": "1.0.0",
+  "version": "0.0.1",
+  "minimumAppVersion": "1.1.0",
   "modules": [
-    "nexpaq.module.hat"
+    "moduware.module.barometer"
   ],
   
-  "title": "Temperature",
+  "title": "Barometer",
   "color": "black",
-  "text_color": "white"
+  "textColor": "white"
 }
