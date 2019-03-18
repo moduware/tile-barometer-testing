@@ -1,6 +1,6 @@
 var lastTimeRecieved = 0;
 var lastData = {
-	humidity: null
+	humidity: null,
 	temperature: null,
 	pressure: null
 };
