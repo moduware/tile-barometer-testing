@@ -1,9 +1,9 @@
 {
   "id": "moduware.tile.barometer-testing",
   "name": "Barometer",
-  "description": "Moduware Barometer module interface for testing",
+  "description": "Pressure altitude and altimeter values",
 
-  "version": "0.0.1",
+  "version": "0.0.2",
   "minimumAppVersion": "1.1.0",
   "modules": [
     "moduware.module.barometer"
